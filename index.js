@@ -537,13 +537,13 @@ document.body.style.transition =
   });
 
   // Close the modal when clicking outside the modal content
-  window.addEventListener("click", (event) => {
-      if (event.target === modal) {
-          modal.style.display = "none"; // Hide the modal
-          birthdayCard.style.display = "none"; // Hide the birthday card
-          openModalButton.style.display = "inline-block"; // Show the button again
-      }
-  });
+  // window.addEventListener("click", (event) => {
+  //     if (event.target === modal) {
+  //         modal.style.display = "none"; // Hide the modal
+  //         birthdayCard.style.display = "none"; // Hide the birthday card
+  //         openModalButton.style.display = "inline-block"; // Show the button again
+  //     }
+  // });
 });
 document.getElementById("open-modal").addEventListener("click", function() {
   const animations = document.querySelectorAll("animate");
